@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Teorias y conspiraciones modernas</title>
+        <meta charset="utf-8"/>
+        <link href="favicon.png" rel="icon">  
+
+        <style> 
+            .desactivar {
+                list-style:none;
+            }
+            ul {
+                font-size: 18px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <header> <!--ENCABEZADO-->
+            <h1>Teorias y conspiraciones modernas</h1>
+        </header>
+    
+        <nav id="volver"> <!--MENU PRINCIPAL = BARRA DE NAVEGACION-->
+            <h3>Listado de temas y contacto</h3>
+            <ul class="desactivar"> <!--ul SON VIÑETAS Y LA CLASE QUE LAS QUITA Y HACE MAS GRANDE-->
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tema1.html">¿Bill Gates creo el coronavirus?</a></li>
+                <li><a href="tema2.html">The Matrix: la misteriosa mujer del vestido rojo descifrado</a></li>
+                <li><a href="tema3.html">'Tesla era de Venus' afirma documento del FBI</a></li>
+                <li><a href="tema4.html">Descubrimiento del "Gran Vacío" en la Gran Pirámide</a></li>           
+                <li><a href="formulario.html">¿Tienes historias que contar? ¡Contactanos!</a></li>
+            </ul>
+        </nav>
+
+    <hr><hr> <!--LINEA HORIZONTAL-->
+
+    <section>
+        <form method="post"> <!--post: metodo de formulario-->
+            <fieldset> <!--recuadro-->
+                <legend><h2>¿Tienes algo que contar? ¡Cuentanos tu historia!</h2></legend>
+                <h3><label>Nombre:</label></h3>
+                <input name="nom" type="text" maxlength="15" size="30" placeholder="Escriba su nombre completo" required autofocus/>
+
+                <h3><label>Apellidos:</label></h3>
+                <input name="ape" type="text" maxlength="15" size="30" placeholder="Escriba sus apellidos completos" required>
+
+                <h3><label>Email:</label></h3>
+                <input name="cor" type="email" size="30" placeholder="nombre@dominio.com" required/>
+
+                <h3><label>Mensaje:</label></h3>
+                <textarea name="com" rows="10" cols="60" placeholder="Escriba su mensaje:" required></textarea>
+
+                <br><br>
+
+                <input name="enviar" type="submit" value="Enviar">
+                <input name="borrar" type="reset" value="Borrar">
+            </fieldset>
+
+        </form>
+        <br>
+        <a href="#volver">Volver arriba</a>
+    </section>
+
+    <hr><hr> <!--LINEA HORIZONTAL-->
+
+        <footer>
+            <h2>Cenfotec 2020</h2>
+            <h5>Derechos reservados</h5>
+        </footer>
+
+    </body>
+
+</html>
