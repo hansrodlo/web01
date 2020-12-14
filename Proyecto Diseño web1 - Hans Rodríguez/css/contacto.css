@@ -1,0 +1,66 @@
+/*ETIQUETAS*/
+label{
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+/*PROPIEDADES DEL FOMRULARIO*/
+form{
+    margin: 0 auto;
+    width: 530px;
+    height: 750px;
+    font-size: 18px;
+    color: #000;
+    border: solid 5px #90ee90;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+/*AGREGAR UN BORDE CUANDO SE ACTIVAN LOS CAMBIOS*/
+input:hover{
+    outline: 2px solid lightskyblue;
+}
+textarea:hover{
+    outline: 2px solid lightskyblue;
+}
+
+/*PROPIEDADES DE LOS CAMPOS*/
+input, textarea{
+    color: #000000;
+    width: 400px;
+    height: 27px;
+    background: #f5f5f5;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+/*PROPIEDADES DEL CAMPO TEXTAREA*/
+textarea{
+    height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 400px;
+    min-width: 400px;
+}
+/*PROPIEDADES DE LOS BOTONES*/
+.enviar{
+    display: block;
+    height: 50px;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: #90ee90;
+    width: 425px;
+}
+.borrar{
+    display: block;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 425px;
+}

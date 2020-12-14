@@ -1,0 +1,44 @@
+nav{
+	width: 630px;
+	height: 30px;
+	margin: 0 auto;
+  transition: all 0.3s ease-in-out 0s;
+}
+ul{
+  list-style: none;
+}
+#menu{
+  /*El menu queda fijo en pantalla */
+  /*position: fixed; 	*/
+  /*que las opciones del menu tapen el fondo*/
+  position: absolute; 
+  z-index: 100;
+}
+
+#menu li>a{
+  background-color: #228b22;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+  
+ }
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+  transition: all 0.3s ease-in-out 0s;
+ }
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+
